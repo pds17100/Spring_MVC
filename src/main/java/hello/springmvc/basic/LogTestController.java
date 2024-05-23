@@ -22,6 +22,7 @@ public class LogTestController {
         log.info("info log={}", name);
         log.warn("warn log={}", name);
         log.error("error log={}", name);
+        System.out.println("test");
 
         return "ok";
     }
